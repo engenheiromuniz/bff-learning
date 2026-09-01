@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: legacy-mock-systems
+
+logging:
+  level:
+    org.springframework.ws: INFO

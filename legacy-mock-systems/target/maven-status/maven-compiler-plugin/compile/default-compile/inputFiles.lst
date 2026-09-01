@@ -1,0 +1,10 @@
+D:\MUNIZ\microsservicos\bff-mulesoft-learning\legacy-mock-systems\src\main\java\com\ex\mock\config\WebServiceConfig.java
+D:\MUNIZ\microsservicos\bff-mulesoft-learning\legacy-mock-systems\src\main\java\com\ex\mock\data\MockCitizenRepository.java
+D:\MUNIZ\microsservicos\bff-mulesoft-learning\legacy-mock-systems\src\main\java\com\ex\mock\MockSystemsApplication.java
+D:\MUNIZ\microsservicos\bff-mulesoft-learning\legacy-mock-systems\src\main\java\com\ex\mock\rest\controller\CadastroController.java
+D:\MUNIZ\microsservicos\bff-mulesoft-learning\legacy-mock-systems\src\main\java\com\ex\mock\rest\model\CadastroResponse.java
+D:\MUNIZ\microsservicos\bff-mulesoft-learning\legacy-mock-systems\src\main\java\com\ex\mock\rest\model\EnderecoDTO.java
+D:\MUNIZ\microsservicos\bff-mulesoft-learning\legacy-mock-systems\src\main\java\com\ex\mock\soap\endpoint\AntecedentesEndpoint.java
+D:\MUNIZ\microsservicos\bff-mulesoft-learning\legacy-mock-systems\src\main\java\com\ex\mock\soap\model\ConsultaAntecedentesRequest.java
+D:\MUNIZ\microsservicos\bff-mulesoft-learning\legacy-mock-systems\src\main\java\com\ex\mock\soap\model\ConsultaAntecedentesResponse.java
+D:\MUNIZ\microsservicos\bff-mulesoft-learning\legacy-mock-systems\src\main\java\com\ex\mock\soap\model\package-info.java
