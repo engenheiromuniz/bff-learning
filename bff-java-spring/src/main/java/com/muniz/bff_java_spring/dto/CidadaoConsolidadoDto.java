@@ -4,14 +4,16 @@ package com.muniz.bff_java_spring.dto;
 
 public class CidadaoConsolidadoDto {
 	
+	
+	
     private String cpf;
     private String nome;
     private String dataNascimento;
     private String sexo;
-    private String endereco;
+    private EnderecoDto endereco;    
     
     
-	public CidadaoConsolidadoDto(String cpf, String nome, String dataNascimento, String sexo, String endereco) {
+	public CidadaoConsolidadoDto(String cpf, String nome, String dataNascimento, String sexo, EnderecoDto endereco) {
 		super();
 		this.cpf = cpf;
 		this.nome = nome;
@@ -61,12 +63,12 @@ public class CidadaoConsolidadoDto {
 	}
 
 
-	public String getEndereco() {
+	public EnderecoDto getEndereco() {
 		return endereco;
 	}
 
 
-	public void setEndereco(String endereco) {
+	public void setEndereco(EnderecoDto endereco) {
 		this.endereco = endereco;
 	}
     
