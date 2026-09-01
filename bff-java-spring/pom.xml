@@ -49,6 +49,30 @@
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		
+<!-- Suporte a JAXB para serialização/desserialização SOAP (XML) -->
+<dependency>
+    <groupId>jakarta.xml.bind</groupId>
+    <artifactId>jakarta.xml.bind-api</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.jaxb</groupId>
+    <artifactId>jaxb-runtime</artifactId>
+</dependency>	
+
+
+<!-- Suporte ao Spring Web Services (WebServiceTemplate para SOAP) -->
+<dependency>
+    <groupId>org.springframework.ws</groupId>
+    <artifactId>spring-xml</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.springframework.ws</groupId>
+    <artifactId>spring-ws-core</artifactId>
+</dependency>	
+		
+		
 	</dependencies>
 
 	<build>
