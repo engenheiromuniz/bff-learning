@@ -10,11 +10,13 @@ public class CidadaoConsolidadoDto {
     private String nome;
     private String dataNascimento;
     private String sexo;
-    private EnderecoDto endereco;    
+    private EnderecoDto endereco;
+    
+    private Boolean possuiRestricao;
+    private String tipoRestricao;
     
     
 	public CidadaoConsolidadoDto(String cpf, String nome, String dataNascimento, String sexo, EnderecoDto endereco) {
-		super();
 		this.cpf = cpf;
 		this.nome = nome;
 		this.dataNascimento = dataNascimento;
@@ -71,7 +73,20 @@ public class CidadaoConsolidadoDto {
 	public void setEndereco(EnderecoDto endereco) {
 		this.endereco = endereco;
 	}
-    
-    
+	
+	public Boolean getPossuiRestricao() {
+	    return possuiRestricao;
+	}
 
+	public void setPossuiRestricao(Boolean possuiRestricao) {
+	    this.possuiRestricao = possuiRestricao;
+	}
+
+	public String getTipoRestricao() {
+	    return tipoRestricao;
+	}
+
+	public void setTipoRestricao(String tipoRestricao) {
+	    this.tipoRestricao = tipoRestricao;
+	}	
 }
