@@ -2,11 +2,13 @@ package com.muniz.bff_java_spring.client;
 
 import java.util.Optional;
 
+import org.springframework.stereotype.Component;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestClient;
 
 import com.muniz.bff_java_spring.dto.CidadaoConsolidadoDto;
 
+@Component
 public class CadastroRestClient {
 
     private final RestClient restClient;

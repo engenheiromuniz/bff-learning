@@ -2,8 +2,11 @@ package com.muniz.bff_java_spring.client;
 
 import com.muniz.bff_java_spring.soap.model.ConsultaAntecedentesRequest;
 import com.muniz.bff_java_spring.soap.model.ConsultaAntecedentesResponse;
+
+import org.springframework.stereotype.Component;
 import org.springframework.ws.client.core.WebServiceTemplate;
 
+@Component
 public class AntecedentesSoapClient {
 
     private final WebServiceTemplate webServiceTemplate;
